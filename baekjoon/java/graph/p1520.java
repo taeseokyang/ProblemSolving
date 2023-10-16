@@ -32,19 +32,6 @@ public class Main {
         }
         if (sumways == 0) dp[y][x] = -1;
         else dp[y][x] = sumways;
-
-//        System.out.print(y);
-//        System.out.print(" ");
-//        System.out.println(x);
-//        for(int i=0;i<sy;i++) {
-//            for(int j=0;j<sx;j++) {
-//                System.out.print(dp[i][j]);
-//                System.out.print(" ");
-//
-//            }
-//            System.out.println(" ");
-//        }
-
         return sumways;
     }
 }
