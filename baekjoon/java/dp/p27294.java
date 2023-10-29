@@ -7,7 +7,7 @@ public class Main {
         String nums[] = br.readLine().split(" ");
         int time = Integer.parseInt(nums[0]);
         int drink = Integer.parseInt(nums[1]);
-        if (drink == 0 && (time < 12 || time > 16)) System.out.print(320);
+        if (drink == 0 && (time >= 12 && time <= 16)) System.out.print(320);
         else System.out.print(280);
     }
 }
